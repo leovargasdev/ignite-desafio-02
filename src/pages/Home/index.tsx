@@ -41,8 +41,6 @@ const Home = (): JSX.Element => {
     await addProduct(id)
   }
 
-  console.log(cart)
-
   return (
     <ProductList>
       {products.map(product => (
